@@ -6,6 +6,6 @@ http.createServer(function(request, response) {
   response.writeHead(200,{"content-type": "text/html; charset=utf-8"});
   response.write(data);
   response.end();
-}).listen(0976,function(){
+}).listen(9876,function(){
   console.log('서버가 작동되고 있습니다!');
 });
